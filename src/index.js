@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 // import MyRouter from "./router/router";
 // import BS from "./router/bs";
+import Blog from "./blog";
 import Chat from "./chat";
+
 
 
 ReactDOM.render(<Chat />, document.getElementById('root'));
