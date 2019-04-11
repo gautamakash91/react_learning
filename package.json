@@ -7,9 +7,11 @@
     "firebase": "^5.9.2",
     "firebase-admin": "^7.2.0",
     "http2": "^3.3.7",
+    "prismjs": "^1.16.0",
     "react": "^16.8.4",
     "react-bootstrap": "^1.0.0-beta.6",
     "react-dom": "^16.8.4",
+    "react-monaco-editor": "^0.25.1",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
   },

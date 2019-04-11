@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 // import MyRouter from "./router/router";
 // import BS from "./router/bs";
 import Chat from "./chat";
+// import Code from "./code";
 
+// import * as monaco from 'monaco-editor';
+
+// monaco.editor.create(document.getElementById('container'), {
+//   value: [
+//     'function x() {',
+//     '\tconsole.log("Hello world!");',
+//     '}'
+//   ].join('\n'),
+//   language: 'javascript'
+// });
 
 ReactDOM.render(<Chat />, document.getElementById('root'));
 
