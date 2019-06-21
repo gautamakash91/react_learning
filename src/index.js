@@ -2,15 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
-// import MyRouter from "./router/router";
-// import BS from "./router/bs";
-// import Blog from "./blog";
-import Chat from "./chat";
-import DD from "./dd";
+import App from "./app";
+import MyComp from "./class1/mycomp";
+import MyArray from "./class2/class2";
 
-
-
-ReactDOM.render(<Chat />, document.getElementById('root'));
+ReactDOM.render(<MyComp />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
