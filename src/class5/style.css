@@ -1,0 +1,6 @@
+.box{
+    background-color: bisque;
+    width: 40%;
+    display: inline-block;
+    margin-left: 10px;
+}
