@@ -7,8 +7,9 @@ import MyComp from "./class1/mycomp";
 import MyArray from "./class2/class2";
 import Class3 from "./class3/class3";
 import Class31 from "./class3/class3_1";
+import MyRenderer from "./class4/conditional_render";
 
-ReactDOM.render(<Class31 />, document.getElementById('root'));
+ReactDOM.render(<MyRenderer />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
