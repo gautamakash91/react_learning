@@ -13,8 +13,9 @@ import Class52 from "./class5/class52";
 import Trial from "./trial";
 import Class61 from "./class6/class61";
 import Class62 from "./class6/class62";
+import Callbk from "./class7/callbk";
 
-ReactDOM.render(<Class62 />, document.getElementById('root'));
+ReactDOM.render(<Callbk />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
