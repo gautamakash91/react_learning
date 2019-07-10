@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import "./style.css";
+import {
+    Link
+} from "react-router-dom";
 
 export default class Class5 extends Component {
     constructor(props) {
@@ -49,11 +52,10 @@ export default class Class5 extends Component {
             a = "logout";
         }
 
-        this.setState({
-            val: false
-        })
         return (
             <div>
+                {/* <Link to="mcq">MCQ</Link> */}
+
                 <input onChange={this.handleName} />
                 <input onChange={this.handleAge} />
 

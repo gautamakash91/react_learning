@@ -1,5 +1,8 @@
 import React from "react";
 import App from "../app";
+import {
+    Link
+} from "react-router-dom";
 
 
 var a = "this is a string variable";
@@ -34,6 +37,8 @@ class MyComp extends React.Component {
     render() {
         return (
             <div>
+                <Link to="trial">Go to class 5</Link>
+
                 {a}
                 {this.state.num1}
                 <h1>

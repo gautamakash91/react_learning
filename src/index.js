@@ -14,8 +14,13 @@ import Trial from "./trial";
 import Class61 from "./class6/class61";
 import Class62 from "./class6/class62";
 import Callbk from "./class7/callbk";
+import Fetcher from "./class72/fetcher";
+import MyRouter from "./class8/navigate";
+import MyNav from "./class82/mynav";
+import Fb from "./class82/fb";
 
-ReactDOM.render(<Callbk />, document.getElementById('root'));
+
+ReactDOM.render(<Fb />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -59,6 +59,8 @@ export default class Class6 extends Component {
     }
 
     render() {
+        console.log(this.props.location.state.a);
+
         return (
             <div>
                 1. What is the full form of HTML? <br />
