@@ -14,8 +14,6 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 var db = firebase.firestore();
 
-// var db = firebase.database();
-
 export default class Fb extends Component {
 
   componentDidMount(){
